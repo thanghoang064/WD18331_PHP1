@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e9f9a53-947f-400a-84db-ff2a9473c341" name="Default Changelist" comment="" />
+    <list default="true" id="7e9f9a53-947f-400a-84db-ff2a9473c341" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai1/ltmang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai1/manglienhop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai1/mang.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai1/mang.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +33,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2SPtqD8RKXmPVg5m53rG8VKNhzE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,6 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,18 +66,37 @@
       <workItem from="1689060234330" duration="2352000" />
       <workItem from="1689063408285" duration="2027000" />
       <workItem from="1689092422666" duration="1000" />
-      <workItem from="1689405857959" duration="5104000" />
+      <workItem from="1689405857959" duration="5601000" />
+      <workItem from="1689665111490" duration="5393000" />
+      <workItem from="1689838008965" duration="2563000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="284" key="NewPhpFileDialog" timestamp="1689406249146">
-      <screen x="0" y="25" width="1280" height="649" />
+    <state x="462" y="286" key="NewPhpFileDialog" timestamp="1689838136463">
+      <screen x="0" y="25" width="1280" height="654" />
     </state>
     <state x="462" y="287" key="NewPhpFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1689060313307" />
     <state x="462" y="284" key="NewPhpFileDialog/0.25.1280.649@0.25.1280.649" timestamp="1689406249146" />
+    <state x="462" y="286" key="NewPhpFileDialog/0.25.1280.654@0.25.1280.654" timestamp="1689838136463" />
+    <state x="305" y="25" width="670" height="676" key="search.everywhere.popup" timestamp="1689665396935">
+      <screen x="0" y="25" width="1280" height="654" />
+    </state>
+    <state x="305" y="25" width="670" height="676" key="search.everywhere.popup/0.25.1280.654@0.25.1280.654" timestamp="1689665396935" />
   </component>
 </project>
