@@ -41,7 +41,19 @@ $mangGV =  [
 //$mangInfos[0]['dia_chi'];
 //$mangInfos[1]['ten'];
 //$mangInfos[1]['nam_sinh'];
+$max = 0;
+$min = 0;
+if (isset($_POST['gui'])) {
+    $max = $_POST['max'];
+    $min = $_POST['min'];
+}
 ?>
+<form action="" method="POST">
+    Min <input type="text" name="min" />
+    Max <input type="text" name="max" />
+
+    <input type="submit" name="gui" value="Gui">
+</form>
 <table border="1">
     <tr>
         <td>Mã GV</td>
@@ -51,7 +63,7 @@ $mangGV =  [
     </tr>
     <?php foreach ($mangGV as $key => $value) {
         $mau = "";
-        if ($value['luong'] >= 1000 && $value['luong'] <=2000) {
+        if ($value['luong'] >= $min && $value['luong'] <=$max) {
             $mau = "red";
         }
         ?>
