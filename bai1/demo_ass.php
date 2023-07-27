@@ -19,6 +19,7 @@
     ];
 $ngaydi = "";
 $ngayden = "";
+
  if (isset($_POST['search'])) {
      $ngaydi =  strtotime($_POST['ngay_di']); // strotime để đổi thời gian ra 1 số nguyên để so sánh
      $ngayden = strtotime($_POST['ngay_den']);
@@ -47,6 +48,7 @@ $ngayden = "";
         $thoi_gian_di = strtotime($value['thoi_gian_di']);
         $thoi_gian_den = strtotime($value['thoi_gian_den']);
             if ($ngaydi < $thoi_gian_di && $ngayden < $thoi_gian_di) {
+
                 $mau = "blue";
                 $trang_thai = "Chưa bay";
             }
