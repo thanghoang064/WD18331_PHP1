@@ -1,6 +1,7 @@
 <?php
 require 'connect.php';
-$sql = "SELECT * FROM sinh_vien";
+$sql = "SELECT sv.ten,sv.nam_sinh,sv.email,sv.image,cn.ten_chuyen_nghanh FROM sinh_vien as sv,chuyen_nghanh as 
+cn WHERE sv.chuyen_nganh_id = cn.chuyen_nganh_id";
 //
 $result = $conn->query($sql)->fetchAll();
 // chạy câu truy vấn và lấy ra tất cả dữ liệu
