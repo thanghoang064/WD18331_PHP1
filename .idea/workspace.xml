@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9f9a53-947f-400a-84db-ff2a9473c341" name="Default Changelist" comment="update project">
+      <change afterPath="$PROJECT_DIR$/connect_mysql/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connect_mysql/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/list.php" afterDir="false" />
     </list>
@@ -73,7 +74,7 @@
       <workItem from="1690600508812" duration="5184000" />
       <workItem from="1690878089973" duration="2163000" />
       <workItem from="1691048808875" duration="4493000" />
-      <workItem from="1691221932169" duration="358000" />
+      <workItem from="1691221932169" duration="3626000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1689841151702</created>
@@ -133,10 +134,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="287" key="NewPhpFileDialog" timestamp="1691048832797">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="693" y="431" key="NewPhpFileDialog" timestamp="1691223611624">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="287" key="NewPhpFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1691048832797" />
+    <state x="693" y="431" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1691223611624" />
     <state x="462" y="284" key="NewPhpFileDialog/0.25.1280.648@0.25.1280.648" timestamp="1690444433511" />
     <state x="462" y="284" key="NewPhpFileDialog/0.25.1280.649@0.25.1280.649" timestamp="1689406249146" />
     <state x="462" y="285" key="NewPhpFileDialog/0.25.1280.651@0.25.1280.651" timestamp="1690013790621" />

@@ -1,6 +1,6 @@
 <?php
 require 'connect.php';
-$sql = "SELECT sv.ten,sv.nam_sinh,sv.email,sv.image,cn.ten_chuyen_nghanh FROM sinh_vien as sv,chuyen_nghanh as 
+$sql = "SELECT sv.id,sv.ten,sv.nam_sinh,sv.email,sv.image,cn.ten_chuyen_nghanh FROM sinh_vien as sv,chuyen_nghanh as 
 cn WHERE sv.chuyen_nganh_id = cn.chuyen_nganh_id";
 //
 $result = $conn->query($sql)->fetchAll();
@@ -18,6 +18,7 @@ $result = $conn->query($sql)->fetchAll();
     <title>Document</title>
 </head>
 <body>
+    <a href="add.php">Thêm</a>
     <table border="1">
         <tr>
             <td>ID</td>
@@ -25,6 +26,8 @@ $result = $conn->query($sql)->fetchAll();
             <td>Năm sinh</td>
             <td>Email</td>
             <td>Hình</td>
+            <td>Tên chuyên nghành</td>
+            <td>Hành động</td>
         </tr>
         <?php foreach ($result as $key => $value) { ?>
         <tr>
@@ -32,7 +35,16 @@ $result = $conn->query($sql)->fetchAll();
             <td><?php echo $value['ten']; ?></td>
             <td><?php echo $value['email']; ?></td>
             <td><?php echo $value['nam_sinh']; ?></td>
-            <td><?php echo $value['image']; ?></td>
+            <td>
+                <img width="100px" src="<?php echo "img/".$value['image']; ?>"/>
+            </td>
+            <td>
+                <?php echo $value['ten_chuyen_nghanh'] ?>
+            </td>
+            <td>
+                <a href="edit.php?id=<?php echo $value['id']; ?>">Sửa</a>
+                <a href="">Xóa</a>
+            </td>
         </tr>
         <?php } ?>
     </table>
