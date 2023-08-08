@@ -43,10 +43,17 @@ $result = $conn->query($sql)->fetchAll();
             </td>
             <td>
                 <a href="edit.php?id=<?php echo $value['id']; ?>">Sửa</a>
-                <a href="">Xóa</a>
+                <a href="javascript:confirmDelete('delete.php?id=<?php echo $value['id']; ?>')">Xóa</a>
             </td>
         </tr>
         <?php } ?>
     </table>
 </body>
+<script>
+    function confirmDelete(delUrl) {
+        if (confirm("Bạn có muốn xóa không ? ")) {
+            document.location = delUrl;
+        }
+    }
+</script>
 </html>
